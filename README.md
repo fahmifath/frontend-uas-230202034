@@ -43,19 +43,22 @@ localhost:8000
 ### Struktur folder
 ```bash
 app/Http/Controllers/
-    ├── Pasien.php
-    └── Obat.php
+├── Pasien.php
+└── Obat.php
 
 resources/views/
-    ├── pasien/
-    │   ├── index.blade.php
-    │   ├── create.blade.php
-    │   └── edit.blade.php
-    └── obat/
-        ├── index.blade.php
-        ├── create.blade.php
-        └── edit.blade.php
+├── layouts/
+│   └── app.blade.php        
+├── pasien/
+│   ├── index.blade.php
+│   ├── create.blade.php
+│   └── edit.blade.php
+└── obat/
+    ├── index.blade.php
+    ├── create.blade.php
+    └── edit.blade.php
 
 routes/
-    └── web.php
+└── web.php
+
 ```
